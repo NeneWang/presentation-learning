@@ -26,6 +26,17 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* Custom CSS for links */
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+  transition: color 0.2s; /* Add transition effect */
+}
+
+a:hover {
+  color: #ff0000; /* Change color on hover */
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
